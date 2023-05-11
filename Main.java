@@ -1,3 +1,6 @@
+
+
+import outils.Personne;
 public class Main{
     public static void main(String[]args){
         /*Lorsque on déclare une variable de type objet,on dit 
@@ -7,9 +10,7 @@ public class Main{
          */
         //Personne p = new Personne(); REMPLACER PAR 
         Personne p = new Personne( "Onyme","Anne",50);
-       // p.prenom = "Anne";
-       // p.nom= "Onyme";
-       // p.age= 50;
+      //XXX
         System.out.println(" Nom:" + p.nom);
         System.out.println(" Prénom:"+ p.prenom);
         //System.out.println(" Age:" + p.age); // REMPLACE PAR LIGNE SUIVANTE
