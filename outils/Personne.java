@@ -2,7 +2,7 @@
  
  /*$ Le namespace pour une classe est l'equivalent
    * du chemin du dossier pour un fichier
-   * En JAVA , on utilise le mot clé package. L epackage
+   * En JAVA , on utilise le mot clé package. Le package
 
  */
 package outils;
@@ -54,8 +54,8 @@ prenom =firstname;
      
     public String identite(){
         // System.out.println("la fonction identité est executée");
-        //return this.prenom+" "+this.nom;
-        String temp = this.prenom +" "+this.nom;
+        //return this.prenom+" "+ this.nom;
+        String temp = this.prenom +" "+ this.nom;
         return temp;
     }
     public String identite(boolean vrai){

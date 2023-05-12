@@ -10,7 +10,7 @@ public class Main{
          */
         //Personne p = new Personne(); REMPLACER PAR 
         Personne p = new Personne( "Onyme","Anne",50);
-      //XXX
+      //XXXxxxxxxxxx voir fiche VERSION DIDIER DU 11 05 23
         System.out.println(" Nom:" + p.nom);
         System.out.println(" Prénom:"+ p.prenom);
         //System.out.println(" Age:" + p.age); // REMPLACE PAR LIGNE SUIVANTE
@@ -26,7 +26,7 @@ public class Main{
          
 /*          * EXERCICES : 
          * 1. Déclarer un tableau d'objets Personne.
-         * 2. Remplir le tableau avec les données utilisées dans exempleArray.java (cf. ci-dessous)
+         * 2. Remplir le tableau avec les données utilisées dans exemple Array.java (cf. ci-dessous)
          * 3. Affichez toutes les identités des personnes (en utilisant la méthode identite()).
          * 4. ajoutez un constructeur qui permet d'instancier 
          *      une personne en définissant directement son prénom, 
